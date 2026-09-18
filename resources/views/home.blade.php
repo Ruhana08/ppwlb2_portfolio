@@ -17,7 +17,7 @@
             Fokus pada pengembangan perangkat lunak, basis data, serta manajemen operasional tim.
         </p>
         <div class="mt-8 flex gap-4 text-sm">
-            <a href="{{ route('projects') }}" class="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition">Lihat Projects &rarr;</a>
+            <a href="{{ route('projects.index') }}" class="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition">Lihat Projects &rarr;</a>
             <a href="{{ route('about') }}" class="border border-gray-300 px-6 py-3 rounded-full hover:bg-gray-100 transition">Tentang Saya</a>
         </div>
     </div>

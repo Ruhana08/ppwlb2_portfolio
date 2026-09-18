@@ -5,7 +5,7 @@
             <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600' }}">Home</a>
             <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600' }}">About</a>
             <a href="{{ route('education') }}" class="{{ request()->routeIs('education') ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600' }}">Education</a>
-            <a href="{{ route('projects') }}" class="{{ request()->routeIs('projects') ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600' }}">Projects</a>
+            <a href="{{ route('projects.index') }}" class="{{ request()->routeIs('projects.*') ? 'text-indigo-600 font-semibold' : 'hover:text-indigo-600' }}">Projects</a>
         </div>
     </div>
 </nav>
